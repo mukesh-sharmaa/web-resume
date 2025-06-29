@@ -1,0 +1,41 @@
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+.ul-resume{
+    display: flex;
+    flex-direction: column;
+    list-style-type:disc;
+}
+
+.ul-resume li:hover{
+    color: black;
+    cursor:auto;
+}
+
+.first-div-resume{
+    width: 40%;
+}
+
+.second-div-resume{
+    width: 60%;
+} 
+
+h2{
+    font-weight: 350;
+    font-size:large;
+}
+
+h3{
+    font-weight: 300;
+    font-size:large;
+}

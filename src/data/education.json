@@ -1,0 +1,16 @@
+[
+    {
+        "course": "B.E in Computer Science",
+        "institute": "MVJ College Of Engineering",
+        "location": "Bengaluru",
+        "startDate": "Aug 2015",
+        "endDate": "June 2019"
+    },
+    {
+        "course": "High School",
+        "institute": "Army Public School",
+        "location": "Bengaluru",
+        "startDate": "Apr 2014",
+        "endDate": "Mar 2015"
+    }
+]

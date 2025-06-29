@@ -1,0 +1,21 @@
+.skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    padding: 25px;
+}
+
+.skill-item{
+    border: 1rem;
+    padding: 10px;
+    color: black;
+    background-color:#e3f2fd;
+    border-radius: 10px;
+    font-weight: 305;
+    font-size:large;
+}

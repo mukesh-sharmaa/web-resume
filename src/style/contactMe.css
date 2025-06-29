@@ -1,0 +1,24 @@
+.contact-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-app{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e6dacf;
+    margin: 0%;
+}
+
+h1{
+    text-align: center;
+}

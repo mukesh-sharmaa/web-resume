@@ -1,0 +1,38 @@
+[
+    {
+        "company": "LeadSquared",
+        "position": "Senior Software Test Engineer",
+        "startDate": "Oct 2022",
+        "endDate": "Present",
+        "responsibilities": [
+            "Developed and optimized automation test scripts for API testing using Postman, leading to effective bug identification, reducing manual testing efforts and ensuring timely project delivery.",
+            "Created comprehensive manual and automation test cases, including UI automation using Playwright, which integrated seamlessly with CI/CD pipelines, enhancing deployment speed and reliability.",
+            "Took ownership of disaster recovery (DR) testing, ensuring system resilience and stability under failure scenarios.",
+            "Executed cross-browser compatibility, sanity, and regression testing using Jira for bug tracking. This resulted in the efficient identification and resolution of critical defects, improving website performance and ensuring a seamless user experience across platforms.",
+            "Conducted root cause analysis of recurring issues, providing actionable recommendations that reduced defect recurrence.",
+            "Mentored junior team members, guiding them in test strategy creation and automation practices, which fostered a collaborative environment and upskilled the team."
+        ]
+    },
+    {
+        "company": "Mettl",
+        "position": "Software Quality Engineer",
+        "startDate": "Oct 2021",
+        "endDate": "Sept 2022",
+        "responsibilities": [
+            "Created manual and automation test cases for Mettl website, including REST API testing, ensuring data consistency and performance.",
+            "Performed load testing using JMeter and executed basic AWS configuration tasks to support robust test environments.",
+            "Ran database queries (MySQL, PostgreSQL) to ensure data integrity and alignment with business requirements."
+        ]
+    },
+    {
+        "company": "Tata Consultancy Services",
+        "position": "Assistant System Engineer",
+        "startDate": "Aug 2019",
+        "endDate": "Sept 2021",
+        "responsibilities": [
+            "Designed, updated, reviewed, and executed test cases according to business requirements, collaborating in Agile environments to maintain quality and functionality.",
+            "Authored design documents and test strategies for test stories, and facilitated root cause analysis for system issues.",
+            "Actively participated in functional, regression, and sanity testing, contributing to consistent delivery of quality software."
+        ]
+    }
+]

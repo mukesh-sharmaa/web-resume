@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import AboutMe from './components/AboutMe';
+import Header from './components/Header';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 function App() {
+
+  const [currentState, setCurrentState] = useState("aboutMe");
+
+  function handleSelect(selectedItem){
+    setCurrentState(selectedItem);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Header name="MUKESH SHARMA" title="SENIOR SOFTWARE TEST ENGINEER" onNavigation={handleSelect}/>
+    {currentState === "aboutMe" && <AboutMe onResumeClick = {() =>setCurrentState("resume")}/>}
+    {currentState === "resume" && <Resume />}
     </div>
   );
 }
