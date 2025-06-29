@@ -1,6 +1,5 @@
 import '../style/contactMe.css';
 import personalInfo from '../data/aboutme.json';
-import { Fragment } from 'react/jsx-runtime';
 
 export default function Contact(){   
     

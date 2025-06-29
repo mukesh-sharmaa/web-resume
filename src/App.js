@@ -3,7 +3,6 @@ import './App.css';
 import AboutMe from './components/AboutMe';
 import Header from './components/Header';
 import Resume from './components/Resume';
-import Contact from './components/Contact';
 
 function App() {
 
